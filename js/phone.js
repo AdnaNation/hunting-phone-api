@@ -74,6 +74,7 @@ const showPhoneDetails = (phone)=>{
       <p><span class="text-xl">Display Size: </span> ${phone?.mainFeatures?.
          displaySize
          }</p>
+      <p><span class="text-xl">GPS: </span> ${phone?.others?.GPS || 'No GPS'}</p>
       <p><span class="text-xl">Release Date: </span> ${phone?.releaseDate}</p>
 
    `
